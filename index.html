@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/baguetteBox.min.css">​
+    <title>Photo Gallery</title>
+</head>
+<body>
+
+    <header>
+        <input type="search" name="search" id="search" placeholder="Search">
+    </header>
+
+    <div class="gallery">
+        <a href="./photos/01.jpg" data-caption="I was traveling by car and I came across this beautiful field with hays, the yellowish palette of the landscape is so beautiful that I registered the photo">
+            <img src="./photos/thumbnails/01.jpg" alt="field">
+        </a>
+        <a href="./photos/02.jpg" data-caption="Lake on a cool, calm day with little wind. I see mountains as the background of the landscape.">
+            <img src="./photos/thumbnails/02.jpg" alt="Lake">
+        </a>
+        <a href="./photos/03.jpg" data-caption="I climbed the mountain to see the landscape from above the canyon, a beautiful green forest, with a breathtaking view.">
+            <img src="./photos/thumbnails/03.jpg" alt="Canyon">
+        </a>
+        <a href="./photos/04.jpg" data-caption="I had never seen a real iceberg, having the opportunity to record this photo was amazing, there was no snow on the day.">
+            <img src="./photos/thumbnails/04.jpg" alt="Iceberg">
+        </a>
+        <a href="./photos/05.jpg" data-caption="TThe hottest day of my life, the desert is really hot, the red cliffs were beautiful.">
+            <img src="./photos/thumbnails/05.jpg" alt="Desert">
+        </a>
+        <a href="./photos/06.jpg" data-caption="Fall colors for me are the most beautiful, unsaturated greens and dry leaves.">
+            <img src="./photos/thumbnails/06.jpg" alt="Fall">
+        </a>
+        <a href="./photos/07.jpg" data-caption="Rice plantation near my house, I pass every day through this green field.">
+            <img src="./photos/thumbnails/07.jpg" alt="Plantation">
+        </a>
+        <a href="./photos/08.jpg" data-caption="Dunes of Lagoa da Conceição in Florianopolis, the last city I lived in!">
+            <img src="./photos/thumbnails/08.jpg" alt="Dunes">
+        </a>
+        <a href="./photos/09.jpg" data-caption="Lane to get to the camp I made last year, I miss that day.">
+            <img src="./photos/thumbnails/09.jpg" alt="Countryside Lane">
+        </a>
+        <a href="./photos/10.jpg" data-caption="Sunset in Florianopolis, the city with the best sunset in the country.">
+            <img src="./photos/thumbnails/10.jpg" alt="Sunset">
+        </a>
+        <a href="./photos/11.jpg" data-caption="This cave is in my hometown, Ituporanga.">
+            <img src="./photos/thumbnails/11.jpg" alt="Cave">
+        </a>
+        <a href="./photos/12.jpg" data-caption="The smell of lavender is very good, imagine a field full of lavender. unforgettable day.">
+            <img src="./photos/thumbnails/12.jpg" alt="Lavander">
+        </a>
+        
+    </div>
+    <script>
+        window.addEventListener('load', function() {
+          baguetteBox.run('.gallery');
+        });
+    </script>
+    
+    <script src="./js/baguetteBox.min.js"></script>
+    <script src="./js/searchFilter.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+<footer></footer>
+</html>
